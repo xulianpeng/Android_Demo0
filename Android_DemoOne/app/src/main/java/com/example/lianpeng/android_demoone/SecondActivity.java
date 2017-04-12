@@ -12,6 +12,8 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.loopj.android.http.AsyncHttpClient;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -95,6 +97,8 @@ public class SecondActivity extends AppCompatActivity {
 
                 //Intent intent = new Intent(SecondActivity.this,ListViewActivity.class);
                 //startActivity(intent);
+
+
             }
         });
 
